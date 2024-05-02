@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase; /* Convert text to uppercase */
+    color: #007bff; /* Blue color for heading */
+}
+
+.citation {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.citation p {
+    font-style: italic; /* Italicize the citation */
+    color: #555; /* Dark gray color for citation */
+}
+
+#countdown {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px; /* Increase font size for countdown */
+    color: #28a745; /* Green color for countdown */
+}

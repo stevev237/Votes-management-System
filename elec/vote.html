@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vote for Your Party</title>
+    <link rel="stylesheet" href="styless.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <u><h1>Vote for Your Party</h1></u>
+    <form action="process_vote.php" method="POST">
+        <div id="partyList" class="party-list">
+            <div class="party">
+                <img src="unity.jpg" alt="Unity Party">
+                <p class="party-citation unity">Unity in action, Leadership in Practice</p>
+                <input type="radio" name="vote" value="Unity">
+            </div>
+            <div class="party">
+                <img src="socialist.jpg" alt="Socialist Party">
+                <p class="party-citation socialist">Building a better Campus together</p>
+                <input type="radio" name="vote" value="Socialist">
+            </div>
+        </div> <!-- Container for dynamically loaded party list -->
+        <button type="submit" class="vote-btn">Submit Vote</button>
+    </form>
+
+    <script src="vote.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
